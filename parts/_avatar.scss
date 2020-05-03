@@ -1,0 +1,5 @@
+$avatarRadius: var(--avatar-radius, 0px);
+
+.mx_BaseAvatar_image {
+    border-radius: $avatarRadius !important;
+}

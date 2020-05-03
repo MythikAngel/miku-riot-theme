@@ -1,0 +1,14 @@
+/* Importing CSS */
+@import url("https://mythikangel.github.io/miku-riot-theme/miku.css");
+
+/*
+--|Customizing theme|--
+Change these values to customize the colors and avatar-roundness of the theme.
+More information and instructions can be found on the Wiki:
+https://github.com/MythikAngel/miku-riot-theme/wiki/Customizing-theme
+*/
+:root {
+	--main-color: #E20B6C;
+	--hover-color: #C60962;
+	--avatar-radius: 0px; /* Set to 0px for square avatars and to 50px for round avatars */
+}

@@ -1,0 +1,30 @@
+section#matrixchat {
+    background-image: $mainBg;
+    background-size: cover;
+    background-position: top right;
+}
+
+// Layer between de background and elements
+.mx_MatrixChat_wrapper {
+    background-color: rgba(0,0,0,0.3) !important;
+}
+
+// Room view
+.mx_RoomView{
+    background-color: rgba(0, 0, 0, 0.75) !important;
+}
+
+// Side bar with server community icons
+.mx_TagPanel {
+    background-color: rgba(0, 0, 0, 0.87) !important;
+}
+
+// Header buttons
+.mx_RoomHeader_buttons {
+    background-color: transparent !important;
+}
+
+// Username color
+.mx_Username_color3 {
+    color: $mainColor;
+}
