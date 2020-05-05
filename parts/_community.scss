@@ -1,0 +1,11 @@
+.mx_MatrixChat>:not(.mx_LeftPanel_container):not(.mx_ResizeHandle) {
+    background-color: rgba(0, 0, 0, 0.75) !important;
+}
+
+.mx_MainSplit .dark-panel {
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.mx_GroupView_changeDelayWarning, .mx_GroupView_groupDesc_placeholder {
+    background-color: rgba(0, 0, 0, 0.4);
+}

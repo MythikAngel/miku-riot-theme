@@ -23,3 +23,24 @@ section#matrixchat {
 .mx_Username_color3 {
     color: $mainColor;
 }
+
+// Download file color
+.mx_MFileBody_download a {
+    color: $mainColor
+}
+
+// Context menu
+.mx_ContextualMenu {
+    background-color: rgba(0, 0, 0, 0.85);
+}
+
+// Member list
+.mx_MemberList_invite, .mx_RightPanel_invite {
+    background-color: $mainColor;
+}
+
+// Top bar
+// Highlight
+.mx_RightPanel_headerButton_highlight:after {
+    background-color: $mainColor;
+}

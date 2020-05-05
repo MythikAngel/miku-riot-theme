@@ -7,3 +7,8 @@
  .mx_EventTile.focus-visible:focus-within .mx_EventTile_line, .mx_EventTile.mx_EventTile_actionBarFocused .mx_EventTile_line, .mx_EventTile:hover .mx_EventTile_line {
     background-color: rgba(0, 0, 0, 0.25) !important;
 }
+
+// Action bar
+.mx_MessageActionBar {
+    background: rgba(0, 0, 0, 0.5);
+}
