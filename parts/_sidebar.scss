@@ -1,0 +1,10 @@
+// Side bar with server community icons
+.mx_TagPanel {
+    background-color: rgba(0, 0, 0, 0.87) !important;
+    .mx_TagTile.mx_TagTile_selected:before {
+        background-color: $mainColor;
+    }
+    .mx_TagTile_plus {
+        background-color: rgba(0,0,0,0.4);;
+    }
+}
