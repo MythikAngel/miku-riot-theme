@@ -10,6 +10,8 @@ This theme uses the same background image as the Miku Discord theme. An overview
 ## Installation
 Load the following code into a Riot CSS-loader:
 ```css
+/* Miku Riot Theme by MythikAngel (https://github.com/MythikAngel/miku-riot-theme) */
+
 /* Importing CSS */
 @import url("https://mythikangel.github.io/miku-riot-theme/miku.css");
 
