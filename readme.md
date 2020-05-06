@@ -10,7 +10,9 @@ This theme uses the same background image as the Miku Discord theme. An overview
 ## Installation
 First make sure the dark theme is enabled in your Riot settings (like [this](https://i.imgur.com/034bPWM.png)).
 
-Then load the following code into a Riot CSS-loader:
+If you use the [BetterRiot extension by GeneralUltra758](https://git.nakama.tv/GeneralUltra758/better-riot) the Miku Riot Theme comes bundled and automatically  activated.
+
+Or load the following code into another Riot CSS-loader:
 ```css
 /* Miku Riot Theme by MythikAngel (https://github.com/MythikAngel/miku-riot-theme) */
 
@@ -29,7 +31,7 @@ https://github.com/MythikAngel/miku-riot-theme/wiki/Customizing-theme
 	--avatar-radius: 0px; /* Set to 0px for square avatars and to 50px for round avatars */
 }
 ```
-Or for Riot web you can use the above code with a browser CSS-injection extension like [Stylus](https://add0n.com/stylus.html).
+For Riot web you can use the above code with a browser CSS-injection extension like [Stylus](https://add0n.com/stylus.html).
 
 ## Customization
 The accent colors and avatar radius of this theme can be customized. Take a look at the [this Wiki page](https://github.com/MythikAngel/miku-riot-theme/wiki/Customizing-theme) for instructions.
