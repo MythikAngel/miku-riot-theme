@@ -1,14 +1,16 @@
 # Miku Riot.im Theme
 
-An automatically updating Hatsune Miku theme for riot.im with optional square avatars.
+An automatically updating Hatsune Miku theme for riot.im dark mode with optional square avatars.
 
-This theme is a riot.im adoptation of the [Miku Discord Theme](https://github.com/MythikAngel/miku-discord-theme). It's in its very early stages, and is incomplete.
+This theme is a riot.im adoptation of the [Miku Discord Theme](https://github.com/MythikAngel/miku-discord-theme).
 
 ## Wallpapers
 This theme uses the same background image as the Miku Discord theme. An overview with all current and past wallpapers can be found [here](https://github.com/MythikAngel/miku-discord-theme/wiki/Image-History). If the source of an image is known, it will be listed in the description. Please note that some of the images are resized or even flipped sometimes in order to make them compatible for the theme.
 
 ## Installation
-Load the following code into a Riot CSS-loader:
+First make sure the dark theme is enabled in your Riot settings (like [this](https://i.imgur.com/034bPWM.png)).
+
+Then load the following code into a Riot CSS-loader:
 ```css
 /* Miku Riot Theme by MythikAngel (https://github.com/MythikAngel/miku-riot-theme) */
 
@@ -27,10 +29,10 @@ https://github.com/MythikAngel/miku-riot-theme/wiki/Customizing-theme
 	--avatar-radius: 0px; /* Set to 0px for square avatars and to 50px for round avatars */
 }
 ```
-For Riot web you can use a browser CSS-injection extension like [Stylus](https://add0n.com/stylus.html).
+Or for Riot web you can use the above code with a browser CSS-injection extension like [Stylus](https://add0n.com/stylus.html).
 
 ## Customization
-The accent colors and avatar radius of this theme can be customized. Take a look at the [instructions on the Miku Discord theme](https://github.com/MythikAngel/miku-discord-theme/wiki/Customizing-theme) for more information.
+The accent colors and avatar radius of this theme can be customized. Take a look at the [this Wiki page](https://github.com/MythikAngel/miku-riot-theme/wiki/Customizing-theme) for instructions.
 
 ## Screenshots
 #### Chat
