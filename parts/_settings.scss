@@ -1,0 +1,48 @@
+// Background
+.mx_Dialog {
+    background-image: $settingsBg;
+    background-size: cover;
+    background-position: right;
+    background-color: rgba(0,0,0,0.75);
+    background-blend-mode: multiply; // No extra layer present to apply a rgba bg on, so we'll solve it using this
+}
+
+// Buttons
+.mx_AccessibleButton_kind_primary {
+    background-color: $mainColor;
+}
+
+.mx_AccessibleButton_hasKind.mx_AccessibleButton_kind_primary_sm {
+    background-color: $mainColor;
+}
+
+// Toggle switch
+.mx_ToggleSwitch.mx_ToggleSwitch_on {
+    background-color: $mainColor;
+}
+
+// Tabs
+.mx_TabbedView_tabLabel_active {
+    background-color: $mainColor;
+}
+
+// Textboxes
+.mx_Field input, .mx_Field select, .mx_Field textarea {
+    background-color: rgba(0, 0, 0, 0.35);
+}
+
+// Links
+.mx_InlineTermsAgreement_cbContainer a {
+    color: $mainColor;
+    .mx_InlineTermsAgreement_link {
+        background-color: $mainColor;
+    }
+}
+
+.mx_AccessibleButton_kind_link {
+    color: $mainColor;
+}
+
+.mx_SettingsTab_linkBtn {
+    color: $mainColor;
+}
