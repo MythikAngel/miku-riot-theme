@@ -3,6 +3,14 @@
     background-color: rgba(0, 0, 0, 0.83);
 }
 
+.mx_LeftPanel2 {
+    background-image: none;
+    .mx_LeftPanel2_roomListContainer {
+        backdrop-filter: none;
+        background-color: rgba(0, 0, 0, 0.15);
+    }
+}
+
 // Side panel header
 .mx_TopLeftMenuButton {
     background-color: rgba(0, 0, 0, 0.21) !important;
@@ -16,4 +24,9 @@
 // Add (+) button
 .mx_RoomSubList_addRoom {
     background-color: rgba(0, 0, 0, 0.3);
+}
+
+// Resize Handle
+.mx_ResizeHandle {
+    width: 0;
 }
