@@ -3,9 +3,9 @@
     background-color: rgba(0, 0, 0, 0.83);
 }
 
-.mx_LeftPanel2 {
+.mx_LeftPanel2, .mx_LeftPanel {
     background-image: none;
-    .mx_LeftPanel2_roomListContainer {
+    .mx_LeftPanel2_roomListContainer, .mx_LeftPanel_roomListContainer {
         backdrop-filter: none;
         background-color: rgba(0, 0, 0, 0.15);
     }
